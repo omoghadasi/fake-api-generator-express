@@ -6,7 +6,7 @@ const gulpConfig = {
     debug: false,
     compile: {
       rtl: {
-        enabled: false,
+        enabled: true,
         skip: [
           "select2",
           "line-awesome",
@@ -18,8 +18,8 @@ const gulpConfig = {
       },
       jsMinify: false,
       cssMinify: false,
-      jsSourcemaps: false,
-      cssSourcemaps: false,
+      jsSourcemaps: true,
+      cssSourcemaps: true,
     },
     path: {
       src: "../src",
