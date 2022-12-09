@@ -1,5 +1,18 @@
 {
+  "main": "app.js",
+  "author": {
+    "name": "Omid Moghadasi",
+    "email": "omoghadasi@gmail.com"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.8.0",
+    "mongoose-timestamp": "^0.6.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
   }
 }

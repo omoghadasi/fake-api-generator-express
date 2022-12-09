@@ -1,0 +1,8 @@
+{
+  "config": {
+    "path": {
+      "src": "../src"
+    },
+    "dist": ["../dist/assets"]
+  }
+}
