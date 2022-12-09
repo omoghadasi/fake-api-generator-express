@@ -18,6 +18,7 @@ mongoose
 
 app.set("views", "./views");
 app.set("view engine", "ejs");
+app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
@@ -31,9 +32,14 @@ app.use(
   })
 );
 
+//Routes
+const panelRoutes=require(`${config.path.routes}/panel`);
+
 app.get("/", (req, res) => {
   res.send({ message: "salam" });
 });
+
+app.use('/panel',panelRoutes);
 
 app.use((req, res, next) => {
   res.status(404).send("not found");
