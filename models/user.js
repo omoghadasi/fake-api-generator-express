@@ -1,16 +1,23 @@
 const mongoose = require("mongoose");
 const timestamps = require("mongoose-timestamp");
 const userSchema = new mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,
-  name: String,
   email: {
     type: String,
+    required: true,
+    unique: true,
     lowercase: true,
     match:
       /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/,
   },
-  password: String,
-  phone_number: Number,
+  username: {
+    type: String,
+    unique: true,
+    lowercase: true,
+  },
+  password: {
+    type: String,
+    required: true,
+  },
 });
 userSchema.plugin(timestamps);
 

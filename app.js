@@ -33,13 +33,13 @@ app.use(
 );
 
 //Routes
-const panelRoutes=require(`${config.path.routes}/panel`);
+const panelAuthRoutes = require(`${config.path.routes}/panel/auth`);
 
 app.get("/", (req, res) => {
-  res.send({ message: "salam" });
+  res.send({ message: "welcome to my api" });
 });
 
-app.use('/panel',panelRoutes);
+app.use('/panel', panelAuthRoutes);
 
 app.use((req, res, next) => {
   res.status(404).send("not found");
