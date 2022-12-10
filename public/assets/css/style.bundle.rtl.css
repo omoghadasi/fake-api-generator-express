@@ -2,42 +2,42 @@
 @font-face {
   font-family: "YekanBakh";
   font-weight: 100;
-  src: url("../../fonts/yekanbakh/Yekan Bakh FaNum 01 Hairline.woff") format("woff"), url("../../fonts/yekanbakh/Yekan-Bakh-FaNum-01-Hairline.eot") format("embedded-opentype"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 01 Hairline.ttf") format("truetype");
+  src: url("../fonts/yekanbakh/Yekan Bakh FaNum 01 Hairline.woff") format("woff"), url("../fonts/yekanbakh/Yekan-Bakh-FaNum-01-Hairline.eot") format("embedded-opentype"), url("../fonts/yekanbakh/Yekan Bakh FaNum 01 Hairline.ttf") format("truetype");
 }
 @font-face {
   font-family: "YekanBakh";
   font-weight: 200;
-  src: url("../../fonts/yekanbakh/Yekan Bakh FaNum 02 Thin.woff") format("woff"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 02 Thin.eot") format("embedded-opentype"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 02 Thin.ttf") format("truetype");
+  src: url("../fonts/yekanbakh/Yekan Bakh FaNum 02 Thin.woff") format("woff"), url("../fonts/yekanbakh/Yekan Bakh FaNum 02 Thin.eot") format("embedded-opentype"), url("../fonts/yekanbakh/Yekan Bakh FaNum 02 Thin.ttf") format("truetype");
 }
 @font-face {
   font-family: "YekanBakh";
   font-weight: 300;
-  src: url("../../fonts/yekanbakh/Yekan Bakh FaNum 03 Light.woff") format("woff"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 03 Light.eot") format("embedded-opentype"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 03 Light.ttf") format("truetype");
+  src: url("../fonts/yekanbakh/Yekan Bakh FaNum 03 Light.woff") format("woff"), url("../fonts/yekanbakh/Yekan Bakh FaNum 03 Light.eot") format("embedded-opentype"), url("../fonts/yekanbakh/Yekan Bakh FaNum 03 Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "YekanBakh";
   font-weight: 400;
-  src: url("../../fonts/yekanbakh/Yekan Bakh FaNum 04 Regular.woff") format("woff"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 04 Regular.eot") format("embedded-opentype"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 04 Regular.ttf") format("truetype");
+  src: url("../fonts/yekanbakh/Yekan Bakh FaNum 04 Regular.woff") format("woff"), url("../fonts/yekanbakh/Yekan Bakh FaNum 04 Regular.eot") format("embedded-opentype"), url("../fonts/yekanbakh/Yekan Bakh FaNum 04 Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "YekanBakh";
   font-weight: 500;
-  src: url("../../fonts/yekanbakh/Yekan Bakh FaNum 05 Medium.woff") format("woff"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 05 Medium.eot") format("embedded-opentype"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 05 Medium.ttf") format("truetype");
+  src: url("../fonts/yekanbakh/Yekan Bakh FaNum 05 Medium.woff") format("woff"), url("../fonts/yekanbakh/Yekan Bakh FaNum 05 Medium.eot") format("embedded-opentype"), url("../fonts/yekanbakh/Yekan Bakh FaNum 05 Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "YekanBakh";
   font-weight: 600;
-  src: url("../../fonts/yekanbakh/Yekan Bakh FaNum 06 Bold.woff") format("woff"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 06 Bold.eot") format("embedded-opentype"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 06 Bold.ttf") format("truetype");
+  src: url("../fonts/yekanbakh/Yekan Bakh FaNum 06 Bold.woff") format("woff"), url("../fonts/yekanbakh/Yekan Bakh FaNum 06 Bold.eot") format("embedded-opentype"), url("../fonts/yekanbakh/Yekan Bakh FaNum 06 Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "YekanBakh";
   font-weight: 700;
-  src: url("../../fonts/yekanbakh/Yekan Bakh FaNum 07 Heavy.woff") format("woff"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 07 Heavy.eot") format("embedded-opentype"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 07 Heavy.ttf") format("truetype");
+  src: url("../fonts/yekanbakh/Yekan Bakh FaNum 07 Heavy.woff") format("woff"), url("../fonts/yekanbakh/Yekan Bakh FaNum 07 Heavy.eot") format("embedded-opentype"), url("../fonts/yekanbakh/Yekan Bakh FaNum 07 Heavy.ttf") format("truetype");
 }
 @font-face {
   font-family: "YekanBakh";
   font-weight: 800;
-  src: url("../../fonts/yekanbakh/Yekan Bakh FaNum 08 Fat.woff") format("woff"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 08 Fat.eot") format("embedded-opentype"), url("../../fonts/yekanbakh/Yekan Bakh FaNum 08 Fat.ttf") format("truetype");
+  src: url("../fonts/yekanbakh/Yekan Bakh FaNum 08 Fat.woff") format("woff"), url("../fonts/yekanbakh/Yekan Bakh FaNum 08 Fat.eot") format("embedded-opentype"), url("../fonts/yekanbakh/Yekan Bakh FaNum 08 Fat.ttf") format("truetype");
 }
 :root {
   --bs-blue: #0d6efd;
